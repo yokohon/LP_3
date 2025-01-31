@@ -369,8 +369,22 @@ nav {
     margin-bottom: 12px;
 }
 
+.unlimited_kuraberu {
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.kuraberu {
+    width: 100%;
+    max-width: 143px;
+}
+
+
 .kuraberu-kirameki {
     border: 2px solid #fa7da3;
+
 }
 
 .kuraberu-A {
@@ -378,6 +392,17 @@ nav {
     font-size: var(--font-size-medium);
     border: 2px solid #433e3f;
 }
+
+.kuraberu-A p {
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
