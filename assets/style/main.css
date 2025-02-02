@@ -261,7 +261,8 @@ nav {
 }
 
 .muryo-button .button-reservation {
-    width: 310px;
+    display: flex;
+    max-width: 310px;
     margin: auto;
     font-size: var(--font-size-large);
     word-wrap: break-word;
@@ -351,6 +352,11 @@ nav {
     margin-bottom: 20px;
     background-color: #fff;
 }
+
+.boxed-section:last-child {
+    margin-bottom: 0;
+}
+
 
 .boxed-section h3 {
     text-align: center;
