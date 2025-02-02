@@ -261,7 +261,7 @@ nav {
 }
 
 .muryo-button .button-reservation {
-    display: flex;
+    position: relative;
     max-width: 310px;
     margin: auto;
     font-size: var(--font-size-large);
@@ -270,7 +270,12 @@ nav {
     padding-right: 45px;
 }
 
-
+.button-icon {
+    position: absolute;
+    top:45%;
+    right: 16px;
+    transform: translate(0% , -45%);  
+}
 
 .each-course {
     width: 350px;
