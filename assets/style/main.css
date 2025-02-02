@@ -379,28 +379,55 @@ nav {
 .kuraberu {
     width: 100%;
     max-width: 143px;
+    text-align: center;
 }
-
 
 .kuraberu-kirameki {
     border: 2px solid #fa7da3;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-bottom: 10px;
+}
 
+.kuraberu-kirameki img {
+    margin: auto;
 }
 
 .kuraberu-A {
     color: #433e3f;
     font-size: var(--font-size-medium);
     border: 2px solid #433e3f;
+    padding: 31px;
+    margin-bottom: 10px;
 }
 
 .kuraberu-A p {
     text-align: center;
 }
 
+.choice-zensin , .choice-bubun {
+    color: #4d2c1c;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
 
+.choice-bubun_gazou {
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+}
 
+.choice-bubun_gazou img {
+    width: calc(33.33% - 15px); 
+    margin-bottom: 10px; /* 画像の下に少し余白を追加 */
+}
 
-
+.choice {
+    margin-bottom: 17px;
+}
 
 
 
