@@ -272,9 +272,9 @@ nav {
 
 .button-icon {
     position: absolute;
-    top:45%;
+    top: 45%;
     right: 16px;
-    transform: translate(0% , -45%);  
+    transform: translate(0%, -45%);
 }
 
 .each-course {
@@ -339,7 +339,8 @@ nav {
     font-weight: 700;
 }
 
-.content_three-point {
+.content_three-point,
+.two-courses {
     width: 300px;
     margin: auto;
     justify-content: space-around;
@@ -418,7 +419,8 @@ nav {
     text-align: center;
 }
 
-.choice-zensin , .choice-bubun {
+.choice-zensin,
+.choice-bubun {
     color: #4d2c1c;
     font-size: 23px;
     text-align: center;
@@ -427,13 +429,14 @@ nav {
 }
 
 .choice-bubun_gazou {
-    flex-wrap: wrap; 
-    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .choice-bubun_gazou img {
-    width: calc(33.33% - 15px); 
-    margin-bottom: 10px; /* 画像の下に少し余白を追加 */
+    width: calc(33.33% - 15px);
+    margin-bottom: 10px;
+    /* 画像の下に少し余白を追加 */
 }
 
 .choice {
@@ -441,9 +444,65 @@ nav {
 }
 
 
+.parts-content {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.parts-course p {
+    font-size: var(--font-size-medium);
+    text-align: center;
+}
 
+.two-courses h2 {
+    font-size: 32px;
+    color: var(--bg-color);
+    text-align: center;
+}
 
+.whole-body-course,
+.facial-course {
+    border: 2px solid #fa7da3;
+    border-radius: 12px;
+}
+
+.whole-body-course {
+    margin-top: 30px;
+}
+
+.whole-body-course h3 {
+    background-color: #fdf0f5;
+    color: #fa7da3;
+    font-size: var(--font-size-medium);
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.whole-body-course p {
+    font-size: 14px;
+    padding: 17px;
+}
+
+.facial-course {
+    margin-top: 30px;
+}
+
+.facial-course h3 {
+    background-color: #fdf0f5;
+    color: #fa7da3;
+    font-size: var(--font-size-medium);
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.facial-course p {
+    font-size: 14px;
+    padding: 17px;
+}
 
 .content-feedback {
     background-color: var(--bg-p-color);
