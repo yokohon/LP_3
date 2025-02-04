@@ -470,6 +470,7 @@ nav {
 
 .whole-body-course {
     margin-top: 30px;
+    padding-bottom: 20px;
 }
 
 .whole-body-course h3 {
@@ -479,6 +480,8 @@ nav {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .whole-body-course p {
@@ -486,8 +489,13 @@ nav {
     padding: 17px;
 }
 
+.whole-body-course img {
+    margin: auto;
+}
+
 .facial-course {
     margin-top: 30px;
+    padding-bottom: 20px;
 }
 
 .facial-course h3 {
@@ -497,12 +505,19 @@ nav {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .facial-course p {
     font-size: 14px;
     padding: 17px;
 }
+
+.facial-course img {
+    margin: auto;
+}
+
 
 .content-feedback {
     background-color: var(--bg-p-color);
