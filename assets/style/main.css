@@ -521,4 +521,56 @@ nav {
 
 .content-feedback {
     background-color: var(--bg-p-color);
+    padding-bottom: 25px;
+}
+
+
+.feedback {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.feedback-title {
+    color: var(--bg-color);
+    font-size: 32px;
+}
+
+.slider-box {
+    width: 310px;
+    border: 2px solid #fa7da3;
+    border-radius: 12px;
+}
+
+.slider-title {
+    background-color: var(--bg-color);
+    color: #fff;
+    font-size: var(--font-size-medium);
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slider-item {
+    display: flex;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.slider-item img {
+    width: 60px;
+    margin: 15px;
+} 
+.slider-data {
+    color: var(--bg-color);
+    font-size: 16px;
+    text-align: start;
+}
+
+.slider-comment {
+    font-size: 14px;
 }
