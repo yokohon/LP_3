@@ -218,6 +218,7 @@ nav {
     width: 350px;
     margin: auto;
     border: 2px solid #fa7da3;
+    overflow: hidden;
     border-radius: 12px;
 }
 
@@ -266,8 +267,8 @@ nav {
     margin: auto;
     font-size: var(--font-size-large);
     word-wrap: break-word;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .button-icon {
@@ -354,6 +355,7 @@ nav {
 
 .boxed-section {
     border: 2px solid #fa7da3;
+    overflow: hidden;
     border-radius: 8px;
     margin-bottom: 20px;
     background-color: #fff;
@@ -465,10 +467,13 @@ nav {
 .whole-body-course,
 .facial-course {
     border: 2px solid #fa7da3;
+    overflow: hidden;
     border-radius: 12px;
 }
 
 .whole-body-course {
+    width: 350px;
+    margin: auto;
     margin-top: 30px;
     padding-bottom: 20px;
 }
@@ -480,11 +485,11 @@ nav {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 }
 
 .whole-body-course p {
+    width: 310px;
+    margin: auto;
     font-size: 14px;
     padding: 17px;
 }
@@ -494,6 +499,8 @@ nav {
 }
 
 .facial-course {
+    width: 350px;
+    margin: auto;
     margin-top: 30px;
     padding-bottom: 20px;
 }
@@ -505,11 +512,11 @@ nav {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 17px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
 }
 
 .facial-course p {
+    width: 310px;
+    margin: auto;
     font-size: 14px;
     padding: 17px;
 }
@@ -540,6 +547,7 @@ nav {
 .slider-box {
     width: 310px;
     border: 2px solid #fa7da3;
+    overflow: hidden;
     border-radius: 12px;
 }
 
@@ -548,8 +556,6 @@ nav {
     color: #fff;
     font-size: var(--font-size-medium);
     text-align: center;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -557,20 +563,21 @@ nav {
 .slider-item {
     display: flex;
     background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
 }
 
 .slider-item img {
-    width: 60px;
+    width: 86px;
     margin: 15px;
 } 
 .slider-data {
     color: var(--bg-color);
     font-size: 16px;
     text-align: start;
+    padding-top: 17px;
+    padding-bottom: 12px;
 }
 
 .slider-comment {
     font-size: 14px;
+    padding-right: 15px;
 }
