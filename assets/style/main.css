@@ -172,6 +172,13 @@ nav {
     right: 0;
 }
 
+@media (min-width: 768px) {
+    .tokuten {
+        width: 423px;
+    }
+}
+
+
 .tokuten_point {
     background-color: #fca4bf;
     align-items: center;
@@ -188,6 +195,7 @@ nav {
 @media (min-width: 768px) {
     .kikan {
         font-size: 30px;
+        margin-top: 40px;
     }
 }
 
@@ -200,6 +208,7 @@ nav {
 @media (min-width: 768px) {
     .syogetu {
         font-size: 54px;
+        margin-bottom: 47px;
     }
 }
 
@@ -228,10 +237,25 @@ nav {
     margin-top: 20px;
 }
 
+@media (min-width: 768px) {
+    .tokuten-item {
+        margin-right: 0;
+    }
+}
+
 .tokuten-item li {
     margin-bottom: 10px;
     text-align: center;
 }
+
+@media (min-width: 768px) {
+    .tokuten-item li {
+        font-size: 28px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 
 .tokuten-item li:last-child {
     margin-bottom: 0;
