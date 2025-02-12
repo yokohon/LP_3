@@ -212,19 +212,41 @@ nav {
     }
 }
 
+
+
 .tokune {
     color: var(--color-tokune);
     font-size: 76px;
+}
+
+@media (min-width: 768px) {
+    .tokune {
+        font-size: 171px;
+        font-weight: 700;
+    }
 }
 
 .tokune span {
     font-size: 36px;
 }
 
+@media (min-width: 768px) {
+    .tokune span {
+        font-size: 81px;
+        font-weight: 700;
+    }
+}
+
 .cover-Price_plan {
     margin-top: 10px;
     margin-right: 20px;
     text-align: end;
+}
+
+@media (min-width: 768px) {
+    .cover-Price_plan p {
+        font-size: 21px;
+    }
 }
 
 .tokuten li {
@@ -282,6 +304,12 @@ nav {
     align-items: center;
 }
 
+@media (min-width: 768px) {
+    .imadake {
+        font-size: 34px;
+    }
+}
+
 .imadake::before,
 .imadake::after {
     top: 0.8rem;
@@ -309,11 +337,24 @@ nav {
     border-radius: 12px;
 }
 
+@media (min-width: 768px) {
+    .imadake-item {
+        width: 550px;
+    }
+}
+
+
 .imadake-course {
     font-size: var(--font-size-large);
     color: #fff;
     background-color: var(--bg-color);
     border-radius: 8px 8px 0 0;
+}
+
+@media (min-width: 768px) {
+    .imadake-course {
+        font-size: 32px;
+    }
 }
 
 .imadake-presents {
@@ -323,15 +364,33 @@ nav {
     border-radius: 0 0 8px 8px;
 }
 
+@media (min-width: 768px) {
+    .imadake-presents {
+        font-size: 43px;
+    }
+}
+
 .three-times {
     font-size: 42px;
     font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .three-times {
+        font-size: 68px;
+    }
 }
 
 .imadake-content {
     color: #333;
     font-size: 10px;
     margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+    .imadake-content {
+        font-size: 14px;
+    }
 }
 
 .recommended {
@@ -341,11 +400,24 @@ nav {
     margin-bottom: 28px;
 }
 
+@media (min-width: 768px) {
+    .recommended {
+        width: 570px;
+    }
+
+}
+
 .recommended p {
     color: var(--bg-color);
     font-size: var(--font-size-large);
     text-align: center;
     margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+    .recommended p {
+        font-size: 34px;
+    }
 }
 
 .muryo-button .button-reservation {
@@ -356,6 +428,13 @@ nav {
     word-wrap: break-word;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+@media (min-width: 768px) {
+    .muryo-button .button-reservation {
+        max-width: 570px;
+        font-size: 34px;
+    }
 }
 
 .button-icon {
