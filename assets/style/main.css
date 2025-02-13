@@ -457,9 +457,25 @@ nav {
     padding-bottom: 10px;
 }
 
+@media (min-width: 768px) {
+    .each-course {
+        font-size: 28px;
+    }
+}
+
+
 .trial-course {
     margin-bottom: 40px;
     margin-left: 30px;
+}
+
+@media (min-width: 768px) {
+    .trial-course {
+        width: 350px;
+        margin: auto;
+        font-size: 22px;
+        margin-bottom: 55px;
+    }
 }
 
 .trial-course li {
@@ -513,10 +529,24 @@ nav {
     justify-content: space-around;
 }
 
+@media (min-width: 768px) {
+
+    .content_three-point,
+    .two-courses {
+        width: 400px;
+    }
+}
+
 .content-course h2 {
     font-size: 32px;
     color: var(--bg-color);
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .content-course h2 {
+        font-size: 42px;
+    }
 }
 
 .boxed-section {
@@ -525,6 +555,14 @@ nav {
     border-radius: 8px;
     margin-bottom: 20px;
     background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .boxed-section {
+        width: 780px;
+        margin: auto;
+        margin-bottom: 45px;
+    }
 }
 
 .boxed-section:last-child {
@@ -542,11 +580,25 @@ nav {
     padding-bottom: 10px;
 }
 
+@media (min-width: 768px) {
+    .boxed-section h3 {
+        font-size: 28px;
+    }
+}
+
 .comment {
     font-size: 14px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 12px;
+}
+
+@media (min-width: 768px) {
+    .comment {
+        font-size: var(--font-size-large);
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
 }
 
 .unlimited_kuraberu {
@@ -562,6 +614,18 @@ nav {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    .kuraberu {
+        max-width: 232px;
+    }
+}
+
+@media (min-width: 768px) {
+    .kuraberu p {
+        font-size: var(--font-size-large);
+    }
+}
+
 .kuraberu-kirameki {
     border: 2px solid #fa7da3;
     padding-top: 22px;
@@ -570,6 +634,14 @@ nav {
     padding-right: 33px;
     margin-bottom: 10px;
 }
+
+@media (min-width: 768px) {
+    .kuraberu-kirameki {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
 
 .kuraberu-kirameki img {
     margin: auto;
@@ -581,6 +653,13 @@ nav {
     border: 2px solid #433e3f;
     padding: 31px;
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .kuraberu-A {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 .kuraberu-A p {
@@ -596,6 +675,14 @@ nav {
     margin-bottom: 23px;
 }
 
+@media (min-width: 768px) {
+    .choice-zensin img {
+        width: 350px;
+        margin: auto;
+    }
+}
+
+
 .choice-bubun_gazou {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -605,6 +692,12 @@ nav {
     width: calc(33.33% - 15px);
     margin-bottom: 10px;
     /* 画像の下に少し余白を追加 */
+}
+
+@media (min-width: 768px) {
+    .choice-bubun_gazou img {
+        width: calc(15.33% - 15px);
+    }
 }
 
 .choice {
@@ -628,6 +721,14 @@ nav {
     font-size: 32px;
     color: var(--bg-color);
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .special {
+        display: flex;
+        width: 725px;
+        margin: auto;
+    }
 }
 
 .whole-body-course,
@@ -660,6 +761,16 @@ nav {
     padding: 17px;
 }
 
+@media (min-width: 768px) {
+    .whole-body-course p {
+        font-size: var(--font-size-medium);
+        padding: 0;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+}
+
+
 .whole-body-course img {
     margin: auto;
 }
@@ -685,6 +796,15 @@ nav {
     margin: auto;
     font-size: 14px;
     padding: 17px;
+}
+
+@media (min-width: 768px) {
+    .facial-course p {
+        font-size: var(--font-size-medium);
+        padding: 0;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
 }
 
 .facial-course img {
@@ -721,6 +841,12 @@ nav {
     margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+    .slider-box {
+        max-width: 310px;
+    }
+}
+
 .slider-title {
     background-color: var(--bg-color);
     color: #fff;
@@ -753,6 +879,10 @@ nav {
     padding-right: 15px;
 }
 
+/* @media (min-width: 768px) {
+    .slick-trakc {
+        transform: translate3d();
+    } */
 
 .slick-dots {
     bottom: -34px;
