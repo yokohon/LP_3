@@ -434,6 +434,9 @@ nav {
     .muryo-button .button-reservation {
         max-width: 570px;
         font-size: 34px;
+        border-radius: 74px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -676,7 +679,7 @@ nav {
 }
 
 @media (min-width: 768px) {
-    .choice-zensin img {
+    .zensin-gazou {
         width: 350px;
         margin: auto;
     }
@@ -815,8 +818,6 @@ nav {
 .content-feedback {
     background-color: var(--bg-p-color);
     padding-bottom: 25px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
 }
 
 
@@ -846,6 +847,7 @@ nav {
         max-width: 310px;
     }
 }
+
 
 .slider-title {
     background-color: var(--bg-color);
@@ -879,11 +881,13 @@ nav {
     padding-right: 15px;
 }
 
-/* @media (min-width: 768px) {
-    .slick-trakc {
-        transform: translate3d();
-    } */
-
+    @media (min-width: 768px) {
+        .slick-track {
+            width: 1029px;
+            transform: translate3d(310px, 0px, 0px);
+        }
+    }
+    
 .slick-dots {
     bottom: -34px;
 }
