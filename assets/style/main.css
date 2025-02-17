@@ -803,6 +803,7 @@ nav {
 
 @media (min-width: 768px) {
     .facial-course p {
+        width: 322px;
         font-size: var(--font-size-medium);
         padding: 0;
         padding-top: 17px;
@@ -820,7 +821,11 @@ nav {
     padding-bottom: 25px;
 }
 
-
+@media (min-width: 768px) {
+    .content-feedback {
+        padding-bottom: 30px;
+    }
+}
 .feedback {
     justify-content: center;
     align-items: center;
@@ -832,6 +837,16 @@ nav {
     color: var(--bg-color);
     font-size: 32px;
 }
+
+
+@media (min-width: 768px) {
+    .carousel {
+        width: 1029px;
+        margin: auto;
+        padding-bottom: 14px;
+    }
+}
+
 
 .slider-box {
     width: 310px;
@@ -881,13 +896,6 @@ nav {
     padding-right: 15px;
 }
 
-    @media (min-width: 768px) {
-        .slick-track {
-            width: 1029px;
-            transform: translate3d(310px, 0px, 0px);
-        }
-    }
-    
 .slick-dots {
     bottom: -34px;
 }
@@ -913,4 +921,13 @@ nav {
     width: 60px;
     max-width: 100%;
     margin: auto;
+}
+
+@media (min-width: 768px) {
+    .footer-logo img {
+        width: 150px;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
