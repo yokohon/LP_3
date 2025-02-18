@@ -680,7 +680,7 @@ nav {
 
 @media (min-width: 768px) {
     .zensin-gazou {
-        width: 350px;
+        width: 455px;
         margin: auto;
     }
 }
@@ -841,7 +841,7 @@ nav {
 
 @media (min-width: 768px) {
     .carousel {
-        width: 1029px;
+        max-width: 1029px;
         margin: auto;
         padding-bottom: 14px;
     }
