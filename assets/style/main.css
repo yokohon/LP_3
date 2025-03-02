@@ -5,6 +5,7 @@ body {
     color: #333;
     font-size: 14px;
     font-weight: 400;
+    margin: 0;
 }
 
 a {
@@ -47,31 +48,36 @@ img {
 /* main */
 .header {
     display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
     .header {
-        width: 1023px;
+        max-width: 1049px;
         margin: auto;
-        justify-content: space-between;
         padding-top: 18px;
-        padding-bottom: 18px;
+        padding-bottom: 19px;
+        padding-right: 12px;
     }
 }
 
 .logo img {
-    width: 74px;
+    width: 72px;
     height: auto;
     max-width: 100%;
-    margin-left: 12px;
 }
 
 @media (min-width: 768px) {
     .logo img {
-        width: 100px;
+        width: 97px;
+        margin: 0;
     }
 }
 
@@ -80,31 +86,84 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-left: 10px;
+
+    margin-top: -3px;
+}
+
+@media (min-width: 768px) {
+    nav {
+        gap: 20px;
+    }
 }
 
 /* ボタンの基本スタイル */
-.button {
+.button_header {
     display: block;
     text-decoration: none;
     text-align: center;
     font-size: 12px;
     color: #fff;
     border-radius: 15px;
-    transition: background-color 0.3s, color 0.3s;
-    /* ホバー時のエフェクトをスムーズに */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media (min-width: 768px) {
-    .button {
+    .button_header {
         font-size: var(--font-size-large);
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
         border-radius: 27px;
     }
 }
+
+.button_header span {
+    font-size: 10px;
+    font-size: 19px;
+}
+
+.button-a .button_header {
+    letter-spacing: 0.75px;
+    padding-right: 4.5px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-a .button_header {
+        padding-right: 3px;
+        padding-left: 22.9px;
+        letter-spacing: 0.3px;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-a i {
+        padding-right: 5.5px;
+        padding-left: 5.4px;
+    }
+}
+
+.button-b .button_header {
+    padding-right: 4.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12.8px;
+}
+
+@media (min-width: 768px) {
+    .button-b .button_header {
+        padding-top: 6.3px;
+        padding-right: 9.5px;
+        padding-left: 21.7px;
+    }
+}
+
 
 .button-inquiry {
     background-color: var(--bg-color);
@@ -116,8 +175,32 @@ nav {
     border: 2px solid #49c43d;
 }
 
+.button_body {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+    .button_body {
+        font-size: var(--font-size-large);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 27px;
+    }
+}
+
+
 /* アイコンのスタイル */
-.button i {
+
+
+
+.button .bi-chevron-right {
     margin-left: 8px;
 }
 
@@ -128,35 +211,64 @@ nav {
     position: relative;
 }
 
-.cover-cm {
-    max-width: 1029px;
+
+.cover {
     width: 100%;
-    height: 100%;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
+    background-image: url(../image/cover-sp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 390 / 318;
+    /* position: relative; */
 }
 
+@media (min-width: 768px) {
+    .cover {
+        background-image: url(../image/cover-pc.jpg);
+        aspect-ratio: 1440 / 612;
+    }
+}
+
+.cover-cm {
+    width: 100%;
+    height: 100%;
+    max-width: 1029px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .cover-cm {
+        padding-left: 29px;
+        padding-right: 29px;
+    }
+}
+
+
 .cover-title {
-    position: absolute;
-    top: 0;
-    left: 5px;
+    top: 9px;
+    left: 17px;
 }
 
 .cover-title .large {
     font-size: 42px;
+    letter-spacing: 0.6px;
 }
 
 @media (min-width: 768px) {
     .cover-title .large {
         font-size: 123px;
+        padding-left: 18px;
+        line-height: 1.35;
+        letter-spacing: -1.99px;
     }
 }
 
 .cover-title .medium {
     font-size: var(--font-size-medium);
+    line-height: 1;
+    margin-top: 1px;
+    margin-left: 27px;
 }
 
 @media (min-width: 768px) {
@@ -167,7 +279,6 @@ nav {
 }
 
 .tokuten {
-    position: absolute;
     top: 0;
     right: 0;
 }
@@ -195,7 +306,6 @@ nav {
 @media (min-width: 768px) {
     .kikan {
         font-size: 30px;
-        margin-top: 40px;
     }
 }
 
@@ -208,7 +318,6 @@ nav {
 @media (min-width: 768px) {
     .syogetu {
         font-size: 54px;
-        margin-bottom: 47px;
     }
 }
 
@@ -826,6 +935,7 @@ nav {
         padding-bottom: 30px;
     }
 }
+
 .feedback {
     justify-content: center;
     align-items: center;
