@@ -325,7 +325,12 @@ nav {
 
 @media (min-width: 768px) {
     .tokuten_point {
-        justify-content: space-between;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 23px;
+        gap: 21px
     }
 }
 
@@ -340,6 +345,14 @@ nav {
 @media (min-width: 768px) {
     .kikan {
         font-size: 30px;
+        font-weight: 700;
+        margin-top: 44px;
+        margin-left: 31px;
+        margin-right: 4px;
+        padding-top: 3px;
+        padding-left: 10px;
+        padding-right: 8px;
+        padding-bottom: 6.3px;
     }
 }
 
@@ -352,6 +365,8 @@ nav {
 @media (min-width: 768px) {
     .syogetu {
         font-size: 54px;
+        padding-top: 10px;
+        padding-left: 35px;
     }
 }
 
@@ -366,6 +381,8 @@ nav {
     .tokune {
         font-size: 171px;
         font-weight: 700;
+        line-height: 1.17;
+        margin-top: -2.5px;
     }
 }
 
