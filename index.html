@@ -52,7 +52,7 @@
         </nav>
     </header>
 
-    
+
     <main>
         <div class="cover">
             <div class="cover-cm">
@@ -87,7 +87,8 @@
 
 
         <div class="container limited-plan">
-            <p class="imadake">今だけ<span class="exclamation">！</span></p>
+            <p class="imadake"><span class="imadake_before"></span><span class="imadake_deco">今だけ<span
+                        class="exclamation">！</span></span><span class="imadake_after"></span></p>
             <div class="imadake-item">
                 <p class="imadake-course">フェイシャルコース</p>
                 <p class="imadake-presents"><span class="three-times">3</span>回プレゼント！</p>
@@ -113,83 +114,87 @@
         </ul>
 
 
-        <div class="container content-course">
-            <div class="content-title">
-                <div class="flex content-course_title">
-                    <img src="assets/image/Kirameki Beauty Labo.png" alt="KBL">
-                    <p class="content-course_choose">が選ばれる</p>
+        <div class="container content-course_bg">
+            <div class="content-course">
+                <div class="content-title">
+                    <div class="flex content-course_title">
+                        <picture>
+                            <source srcset="assets\image\Kirameki Beauty Labo._pc.png" media="min-width: 768px"/>
+                        <img src="assets/image/Kirameki Beauty Labo.png" alt="KBL">
+                    </picture>
+                        <span class="content-course_choose">が選ばれる</span>
+                    </div>
+                    <div class="flex content_three-point">
+                        <img src="assets/image/Shape 2918-left.png" alt="">
+                        <h2>3つのポイント</h2>
+                        <img src="assets/image/Shape 2918-right.png" alt="">
+                    </div>
                 </div>
-                <div class="flex content_three-point">
-                    <img src="assets/image/Shape 2918-left.png" alt="">
-                    <h2>3つのポイント</h2>
-                    <img src="assets/image/Shape 2918-right.png" alt="">
-                </div>
+
+                <section class="container boxed-section">
+                    <div class="unlimited">
+                        <h3>POINT1 ｜ 通い放題</h3>
+                        <div class="comment_box">
+                            <p class="comment">納得いくまで何度でも、追加料金なく安心して通っていただけます。</p>
+
+                            <div class="flex unlimited_kuraberu">
+
+                                <div class="kuraberu">
+                                    <div class="kuraberu-kirameki">
+                                        <img src="assets/image/logo.png" alt="KBL">
+                                    </div>
+                                    <p class="kuraberu-osusume">来店1回で全身1回</p>
+                                </div>
+
+                                <div class="kuraberu">
+                                    <div class="kuraberu-A">
+                                        <p>Aサロン</p>
+                                    </div>
+                                    <p class="kuraberu-osusume">来店3回で全身1回</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container boxed-section choice_box">
+                    <div class="choice">
+                        <h3>POINT2 ｜ プランが選べる</h3>
+                        <div class="choice_plan">
+                            <p class="comment zensin_box">「全身プラン」と、施術部位を選べる「部分脱毛プラン」から自由にお選びいただけます。</p>
+                            <h4 class="choice-zensin">全身プラン</h4>
+                            <div class="zensin-gazou">
+                                <picture>
+                                    <source media="(min-width: 767px)" srcset="assets/image/whole-body_pc.png">
+                                    <img src="assets/image/whole-body.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+
+                        <div class="bubun">
+                            <h4 class="choice-bubun">部分脱毛プラン</h4>
+                            <ul class="flex choice-bubun_gazou">
+                                <li><img src="assets/image/neck.png" alt=""><span>うなじ</span></li>
+                                <li><img src="assets/image/armpit.png" alt=""><span>ワキ</span></li>
+                                <li><img src="assets/image/Oline.png" alt=""><span>Ｏライン</span></li>
+                                <li><img src="assets/image/forehead.png" alt=""><span>おでこ</span></li>
+                                <li><img src="assets/image/chin.png" alt=""><span>あご</span></li>
+                                <li><img src="assets/image/faceline.png" alt=""><span>フェイスライン</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container boxed-section">
+                    <div class="support">
+                        <h3>POINT3 ｜ 安心のサポート</h3>
+                        <div>
+                            <p class="comment">提携医療機関のサポートがありますので、ご安心ください。</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-
-            <section class="container boxed-section">
-                <div class="unlimited">
-                    <h3>POINT1 ｜ 通い放題</h3>
-                    <div>
-                        <p class="comment">納得いくまで何度でも、追加料金なく安心して通っていただけます。</p>
-
-                        <div class="flex unlimited_kuraberu">
-
-                            <div class="kuraberu">
-                                <div class="kuraberu-kirameki">
-                                    <img src="assets/image/logo.png" alt="KBL">
-                                </div>
-                                <p>来店1回で全身1回</p>
-                            </div>
-
-                            <div class="kuraberu">
-                                <div class="kuraberu-A">
-                                    <p>Aサロン</p>
-                                </div>
-                                <p>来店3回で全身1回</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container boxed-section">
-                <div class="choice">
-                    <h3>POINT2 ｜ プランが選べる</h3>
-                    <div>
-                        <p class="comment">「全身プラン」と、施術部位を選べる「部分脱毛プラン」から自由にお選びいただけます。</p>
-                        <h4 class="choice-zensin">全身プラン</h4>
-                        <div class="zensin-gazou">
-                            <picture>
-                                <source media="(min-width: 767px)" srcset="assets/image/whole-body_pc.png">
-                                <img src="assets/image/whole-body.png" alt="">
-                            </picture>
-                        </div>
-                    </div>
-
-                    <div class="bubun">
-                        <h4 class="choice-bubun">部分脱毛プラン</h4>
-                        <div class="flex choice-bubun_gazou">
-                            <img src="assets/image/neck.png" alt="">
-                            <img src="assets/image/armpit.png" alt="">
-                            <img src="assets/image/Oline.png" alt="">
-
-                            <img src="assets/image/forehead.png" alt="">
-                            <img src="assets/image/chin.png" alt="">
-                            <img src="assets/image/faceline.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="container boxed-section">
-                <div class="support">
-                    <h3>POINT3 ｜ 安心のサポート</h3>
-                    <div>
-                        <p class="comment">提携医療機関のサポートがありますので、ご安心ください。</p>
-                    </div>
-                </div>
-            </section>
         </div>
 
         <div class="container recommended">
