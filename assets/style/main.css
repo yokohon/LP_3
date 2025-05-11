@@ -845,11 +845,17 @@ nav {
 }
 
 .content-course_title {
-    width: 302px;
-    margin: auto;
     margin-bottom: 4px;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 768px) {
+    .content-course_title {
+        margin: 0;
+        margin-top: 2px;
+        margin-left: 2px;
+    }
 }
 
 .content-title {
@@ -870,12 +876,40 @@ nav {
     }
 }
 
+@media (min-width: 768px) {
+    .three-point_icon {
+        position: absolute;
+    }
+}
+
+@media (min-width: 768px) {
+    .kirakira-left {
+        position: relative;
+        left :-17px
+    }
+}
+
+@media (min-width: 768px) {
+    .kirakira-right {
+        position: relative;
+        right :-6px
+    }
+}
+
 .content_three-point,
 .two-courses {
     justify-content: center;
     align-items: center;
     line-height: 1.9;
     letter-spacing: 1.4px;
+}
+
+@media (min-width: 768px) {
+    .content_three-point {
+        margin-top: 5px;
+        margin-left: 5px;
+        letter-spacing: 0px;
+    }
 }
 
 @media (min-width: 768px) {
