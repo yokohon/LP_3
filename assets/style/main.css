@@ -889,6 +889,7 @@ nav {
 @media (min-width: 768px) {
     .content_three-point {
         letter-spacing: 0px;
+        padding-top: 5px;
     }
 }
 
@@ -923,18 +924,26 @@ nav {
 
 @media (min-width: 768px) {
     .kirakira-left {
-        width: 50px;
-        vertical-align: middle;
-        left: -58px;
+        width: 52px;
+        /* vertical-align: middle; */
+        left: -55px;
         top: 10px
     }
 }
 
-
 .kirakira-right {
+    width: 38px;
     position: absolute;
     right: -34px;
     top: 8px;
+}
+
+@media (min-width: 768px) {
+    .kirakira-right {
+        width: 52px;
+        right: -55px;
+        top: 10px;
+    }
 }
 
 .boxed-section {
@@ -944,13 +953,11 @@ nav {
     background-color: #fff;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     .boxed-section {
-        width: 780px;
-        margin: auto;
-        margin-bottom: 45px;
+        margin-top: 38px
     }
-} */
+}
 
 .boxed-section:last-child {
     margin-bottom: 0;
@@ -969,6 +976,8 @@ nav {
 @media (min-width: 768px) {
     .boxed-section h3 {
         font-size: 28px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 }
 
@@ -977,6 +986,14 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .comment_box {
+        margin-top: 25px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
 }
 
 .choice {
@@ -999,8 +1016,7 @@ nav {
 @media (min-width: 768px) {
     .comment {
         font-size: var(--font-size-large);
-        margin-top: 22px;
-        margin-bottom: 22px;
+        letter-spacing: 0.2px;
     }
 }
 
@@ -1009,6 +1025,13 @@ nav {
     align-items: flex-start;
     justify-content: center;
     margin-top: 13px;
+}
+
+@media (min-width: 768px) {
+    .unlimited_kuraberu {
+        margin-top: 24px;
+        column-gap: 40px;
+    }
 }
 
 .kuraberu {
@@ -1030,6 +1053,17 @@ nav {
     }
 }
 
+
+.kuraberu-kirameki img {
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .kuraberu-kirameki img {
+        width: 116px;
+    }
+}
+
 .kuraberu-kirameki {
     border: 2px solid #fa7da3;
     padding-top: 22px;
@@ -1040,21 +1074,17 @@ nav {
 
 @media (min-width: 768px) {
     .kuraberu-kirameki {
-        padding-top: 45px;
-        padding-bottom: 45px;
+        padding: 0;
+        padding-top: 34px;
+        padding-bottom: 34px;
+        padding-left: 5px;
     }
-}
-
-
-.kuraberu-kirameki img {
-    margin: auto;
 }
 
 .kuraberu-osusume {
     line-height: 1;
     margin-top: 8px;
 }
-
 
 .kuraberu-A {
     color: #433e3f;
@@ -1066,8 +1096,7 @@ nav {
 
 @media (min-width: 768px) {
     .kuraberu-A {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 0;
     }
 }
 
@@ -1321,6 +1350,10 @@ nav {
     top: 7px;
 }
 
+/* .carousel {
+
+} */
+
 @media (min-width: 768px) {
     .carousel {
         max-width: 1029px;
@@ -1365,6 +1398,10 @@ nav {
     padding-bottom: 12px;
 }
 
+.slider-item_box {
+    padding-left: 14px;
+}
+
 .slider-item img {
     width: 86px;
 }
@@ -1396,7 +1433,8 @@ nav {
 }
 
 .slick-slide {
-    margin-right: 15px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
 }
 
 .slick-slide:last-child {

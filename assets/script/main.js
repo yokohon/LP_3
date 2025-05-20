@@ -1,7 +1,7 @@
 
 $('.carousel').slick({
   centerMode: true,
-  centerPadding: '10%',
+  centerPadding: '8.333%',
   slidesToShow: 1,
   dots: true,
   mobileFirst: true, //初期設定がモバイル
