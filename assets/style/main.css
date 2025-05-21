@@ -751,6 +751,13 @@ nav {
     transform: translate(0%, -45%);
 }
 
+@media (min-width: 768px) {
+    .button-icon {
+        top: 47%;
+        right: 38px;
+    }
+}
+
 .each-course {
     width: 350px;
     margin: auto;
@@ -993,6 +1000,7 @@ nav {
         margin-top: 25px;
         padding-left: 39px;
         padding-right: 39px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1002,6 +1010,16 @@ nav {
     padding-right: 12px;
     padding-bottom: 9px;
 }
+
+@media (min-width: 768px) {
+    .choice {
+        margin-top: 26px;
+        padding-left: 32px;
+        padding-right: 32px;
+        line-height: 1.6;
+    }
+}
+
 
 .comment {
     font-size: 14px;
@@ -1047,11 +1065,11 @@ nav {
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .kuraberu p {
         font-size: var(--font-size-large);
     }
-}
+} */
 
 
 .kuraberu-kirameki img {
@@ -1086,6 +1104,14 @@ nav {
     margin-top: 8px;
 }
 
+@media (min-width: 768px) {
+    .kuraberu-osusume {
+        font-size: var(--font-size-large);
+        margin-top: 15px;
+    }
+}
+
+
 .kuraberu-A {
     color: #433e3f;
     font-size: var(--font-size-medium);
@@ -1104,6 +1130,14 @@ nav {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    .kuraberu-A p {
+        font-size: 29px;
+        padding-top: 44px;
+        padding-bottom: 48px;
+    }
+}
+
 .choice-zensin,
 .choice-bubun {
     color: #4d2c1c;
@@ -1114,15 +1148,28 @@ nav {
 }
 
 @media (min-width: 768px) {
-    .zensin-gazou {
-        width: 455px;
-        margin: auto;
+    .choice-zensin {
+        margin-top: 19px;
+        margin-bottom: 19px;
     }
 }
+
+
 
 .zensin-gazou img {
     padding-left: 6px;
 }
+
+@media (min-width: 768px) {
+    .zensin-gazou img {
+        padding: 0;
+        width: 558px;
+        margin: auto;
+        padding-left: 16px;
+        height: 600px;
+    }
+}
+
 
 .choice-bubun {
     margin-top: 42px;
@@ -1161,6 +1208,19 @@ nav {
 
 .choice_box {
     margin-top: 29px;
+}
+
+@media (min-width: 768px) {
+    .choice_box {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .choice_box h3 {
+        padding-top: 13px;
+        padding-bottom: 19px;
+    }
 }
 
 .support-box {
