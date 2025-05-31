@@ -10,7 +10,6 @@ $('.carousel').slick({
     {
       breakpoint: 768, // 768px以上の画面サイズ
       settings: {
-        centerMode: false,
         centerPadding: '0',
         slidesToShow: 3, // このサイズでの表示スライド数
         // dots: false,

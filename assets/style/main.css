@@ -902,11 +902,11 @@ nav {
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .two-courses {
-        /* width: 400px; */
+        width: 400px;
     }
-}
+} */
 
 .content-course h2 {
     font-size: 32px;
@@ -1607,9 +1607,11 @@ nav {
 }
 
 
+/* お客様の声 */
+
 @media (min-width: 768px) {
     .carousel {
-        max-width: 1029px;
+        max-width: 973px;
         margin: auto;
         padding-bottom: 14px;
     }
@@ -1649,23 +1651,50 @@ nav {
 
 .slider-item {
     display: flex;
-    gap: 17px;
+    width: 100%;
+    /* gap: 17px; */
+    justify-content: space-between;
     background-color: #fff;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 10px;
+    padding-left: 18px;
+    /* padding-right: 16px; */
+    padding-top: 14px;
+    padding-bottom: 11px;
 }
 
 @media (min-width: 768px) {
     .slider-item {
-        gap: 13.4px;
+        justify-content: space-between;
+        /* padding: 0; */
     }
 }
 
-.slider-item_box {
+/* .slider-item_box {
     padding-left: 14px;
+} */
+
+@media (min-width: 768px) {
+    .slider-item_box {
+        /* padding: 0; */
+        word-break: break-all;
+    }
 }
+
+.slider-photo {
+    width: 100%;
+}
+
+/* @media (min-width: 768px) {
+    .slider-photo {
+        width: 35%;
+    }
+} */
+
+/* @media (min-width: 768px) {
+    .slider-text {
+        width: 74%;
+    }
+} */
+
 
 .slider-item img {
     width: 86px;
@@ -1679,13 +1708,14 @@ nav {
 
 .slider-comment {
     font-size: 14px;
-    padding-top: 7px;
+    padding-top: 6px;
+    padding-right: 8px;
 }
 
 @media (min-width: 768px) {
     .slider-comment {
-        padding-top: 5px;
-        padding-left: 2px;
+        /* padding-top: 5px;
+        padding-left: 2px; */
         line-height: 1.5;
     }
 }
@@ -1714,6 +1744,9 @@ nav {
     margin-right: 0;
 }
 
+
+
+/* 無料定見実地中 */
 .recommended_box {
     margin-top: 24px;
     margin-bottom: 41px;
@@ -1726,6 +1759,7 @@ nav {
     }
 }
 
+/* フッター */
 .footer-logo {
     background-color: var(--bg-color);
     color: #fff;
