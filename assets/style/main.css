@@ -46,12 +46,22 @@ img {
 
 
 /* main */
+
 .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+
+.header-parts {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
     padding-left: 12px;
     padding-right: 10px;
     padding-top: 10px;
@@ -59,12 +69,15 @@ img {
 }
 
 @media (min-width: 768px) {
-    .header {
+    .header-parts {
         max-width: 1049px;
         margin: auto;
-        padding-top: 18px;
-        padding-bottom: 19px;
-        padding-right: 12px;
+
+        padding-left: 3px;
+        padding-right: 20.8px;
+        padding-top: 18.1px;
+        padding-bottom: 18px;
+
     }
 }
 
@@ -232,6 +245,7 @@ nav {
 
 
 .cover {
+    margin-top: 60px;
     width: 100%;
     background-image: url(../image/cover-sp.jpg);
     background-repeat: no-repeat;
@@ -244,6 +258,7 @@ nav {
     .cover {
         background-image: url(../image/cover-pc.jpg);
         aspect-ratio: 1440 / 612;
+        margin-top: 92px;
     }
 }
 
@@ -483,8 +498,15 @@ nav {
     .tokuten-item li {
         font-size: 28px;
         padding-top: 11px;
-        padding-bottom: 15px;
-        margin-bottom: 19px;
+        padding-left: 0;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-square_tuika {
+        padding-left: 1px;
     }
 }
 
@@ -506,7 +528,7 @@ nav {
 
 @media (min-width: 768px) {
     .limited-plan {
-        padding-top: 40px;
+        padding-top: 39px;
         padding-bottom: 25px;
     }
 }
@@ -524,6 +546,7 @@ nav {
 @media (min-width: 768px) {
     .imadake {
         font-size: 34px;
+        padding-left: 14px;
     }
 }
 
@@ -586,7 +609,7 @@ nav {
 
 @media (min-width: 768px) {
     .imadake_before {
-        left: -8px;
+        left: -10px;
     }
 }
 
@@ -605,6 +628,12 @@ nav {
     margin-left: 15px;
 }
 
+@media (min-width: 768px) {
+    .imadake_deco {
+        margin-left: 0;
+    }
+}
+
 .imadake-item {
     width: 350px;
     margin: auto;
@@ -620,6 +649,8 @@ nav {
 @media (min-width: 768px) {
     .imadake-item {
         width: 550px;
+        margin-left: 0;
+        margin: auto;
         margin-top: 18px;
     }
 }
@@ -640,7 +671,7 @@ nav {
 @media (min-width: 768px) {
     .imadake-course {
         font-size: 32px;
-        padding-top: 1px;
+        padding-top: 3px;
         padding-bottom: 11px;
     }
 }
@@ -658,7 +689,8 @@ nav {
 @media (min-width: 768px) {
     .imadake-presents {
         font-size: 43px;
-        padding-bottom: 10px;
+        padding-top: 1px;
+        padding-bottom: 11px;
     }
 }
 
@@ -671,6 +703,13 @@ nav {
 @media (min-width: 768px) {
     .three-times {
         font-size: 68px;
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .three-times_presents {
+        padding-left: 4px;
     }
 }
 
@@ -716,7 +755,8 @@ nav {
     .recommended p {
         font-size: 34px;
         letter-spacing: 3.7px;
-        margin-bottom: 16px;
+        padding-top: 1px;
+        margin-bottom: 14px;
         padding-left: 19px;
     }
 }
@@ -802,7 +842,7 @@ nav {
         margin: auto;
         font-size: 22px;
         margin-top: 15.8px;
-        margin-bottom: 55px;
+        margin-bottom: 53px;
 
     }
 }
@@ -848,7 +888,7 @@ nav {
 @media (min-width: 768px) {
     .content-course {
         padding: 0;
-        padding-top: 50px;
+        padding-top: 46px;
         width: 780px;
         margin: auto;
         padding-bottom: 61px;
@@ -972,7 +1012,7 @@ nav {
 
 @media (min-width: 768px) {
     .boxed-section {
-        margin-top: 38px
+        margin-top: 41px
     }
 }
 
@@ -993,7 +1033,7 @@ nav {
 @media (min-width: 768px) {
     .boxed-section h3 {
         font-size: 28px;
-        padding-top: 16px;
+        padding-top: 17px;
         padding-bottom: 16px;
         letter-spacing: -0.22px;
     }
@@ -1011,7 +1051,7 @@ nav {
         margin-top: 25px;
         padding-left: 39px;
         padding-right: 39px;
-        margin-bottom: 40px;
+        margin-bottom: 43px;
     }
 }
 
@@ -1049,7 +1089,8 @@ nav {
 @media (min-width: 768px) {
     .kayou_box {
         font-size: var(--font-size-large);
-        letter-spacing: 0.22px;
+        letter-spacing: 0.12px;
+        padding-left: 2px;
     }
 }
 
@@ -1076,7 +1117,8 @@ nav {
 @media (min-width: 768px) {
     .unlimited_kuraberu {
         margin-top: 24px;
-        column-gap: 40px;
+        padding-left: 97px;
+        padding-right: 97px;
     }
 }
 
@@ -1247,7 +1289,7 @@ nav {
 @media (min-width: 768px) {
     .choice_box h3 {
         padding-top: 13px;
-        padding-bottom: 19px;
+        padding-bottom: 20px;
     }
 }
 
@@ -1257,7 +1299,7 @@ nav {
 
 @media (min-width: 768px) {
     .support-box {
-        margin-top: 49px;
+        margin-top: 50px;
     }
 }
 
@@ -1268,8 +1310,8 @@ nav {
 
 @media (min-width: 768px) {
     .support h3 {
-        padding-top: 13.2px;
-        padding-bottom: 18.2px;
+        padding-top: 14.2px;
+        padding-bottom: 19.2px;
     }
 }
 
@@ -1301,8 +1343,8 @@ nav {
 }
 
 .parts-content {
-    margin-top: 44px;
-    padding-bottom: 19px;
+    margin-top: 43px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -1310,7 +1352,7 @@ nav {
 @media (min-width: 768px) {
     .parts-content {
         padding: 0;
-        padding-top: 22px;
+        padding-top: 21px;
         width: 780px;
         margin: auto;
     }
@@ -1326,6 +1368,7 @@ nav {
     font-size: var(--font-size-medium);
     text-align: center;
     padding-left: 5px;
+    padding-top: 1px;
 }
 
 @media (min-width: 768px) {
@@ -1343,6 +1386,7 @@ nav {
     margin: auto;
     align-items: center;
     letter-spacing: -0.05px;
+    line-height: 1.85;
 }
 
 @media (min-width: 768px) {
@@ -1387,7 +1431,7 @@ nav {
         width: 730px;
         column-gap: 30px;
         margin: auto;
-        padding-top: 27px;
+        padding-top: 31px;
     }
 }
 
@@ -1401,7 +1445,7 @@ nav {
 .whole-body-course {
     width: 350px;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 17px;
     padding-bottom: 20px;
 }
 
@@ -1486,8 +1530,8 @@ nav {
 .facial-course {
     width: 350px;
     margin: auto;
-    margin-top: 30px;
-    padding-bottom: 22px;
+    margin-top: 31px;
+    padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -1544,15 +1588,15 @@ nav {
 @media (min-width: 768px) {
     .content-feedback {
         margin-top: 59px;
-        padding-bottom: 40px;
+        padding-bottom: 39px;
     }
 }
 
 .feedback {
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding-top: 20px;
-    padding-bottom: 12px;
+    padding-bottom: 13px;
 }
 
 @media (min-width: 768px) {
@@ -1658,7 +1702,7 @@ nav {
     padding-left: 18px;
     padding-top: 14px;
     padding-bottom: 11px;
-    padding-right: 11px;
+    padding-right: 16px;
 }
 
 @media (min-width: 768px) {
@@ -1705,7 +1749,8 @@ nav {
 
 .slider-comment {
     font-size: 14px;
-    padding-top: 6px;
+    padding-top: 7px;
+    line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -1727,13 +1772,13 @@ nav {
 
 .slick-dots li button::before {
     color: #ffd2d2;
-    font-size: 20px;
-    top: 4px;
+    font-size: 18px;
+    top: 2.3px;
 }
 
 .slick-dots li.slick-active button:before {
     color: #fa7da3;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .slick-slide {
@@ -1749,7 +1794,7 @@ nav {
 
 /* 無料定見実地中 */
 .recommended_box {
-    margin-top: 24px;
+    margin-top: 25px;
     margin-bottom: 41px;
 }
 

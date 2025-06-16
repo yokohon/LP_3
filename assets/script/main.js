@@ -5,6 +5,7 @@ $('.carousel').slick({
   slidesToShow: 1,
   dots: true,
   mobileFirst: true, //初期設定がモバイル
+  arrows: false,
 
   responsive: [
     {
